@@ -20,6 +20,6 @@ docker build -t react-ci/cd .
 docker run -d -it --name react -p 80:80 react-ci/cd
 
 # Push the image to DockerHub
-docker tag react-ci/cd ravivarman46/react-app:ci-cd
-docker push ravivarman46/react-app:ci-cd
+docker tag react-ci/cd blade0047/react-app:ci-cd
+docker push blade0047/react-app:ci-cd
 
