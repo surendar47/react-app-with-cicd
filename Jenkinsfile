@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage ('changing the file permission') {
             steps {
-                sh ' chmod +x build.sh'
+                sh 'chmod +x build.sh'
             }
         }
 
@@ -15,3 +15,4 @@ pipeline {
         }
     }
 }
+
